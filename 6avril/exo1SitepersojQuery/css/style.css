@@ -264,11 +264,81 @@ Style Main
         
         }
 
-       
 
+        /* Style Contacts */
+
+
+        form{
+            text-align: left; 
+            margin: 2rem auto; 
+        }
+
+        select{
+            margin: 1rem auto 3rem auto;
+            font-size: 1.2rem;
+            color: slategrey;
+            font-weight: 600;
+            background: snow;
+            height: 3rem; 
+
+        }
+
+        textarea{
+            min-height: 20rem; 
+        }
+
+        [type="checkbox"]{
+            display: inline-block;
+            width: auto;  
+        }
+
+        textarea, input, label{
+            display: block; 
+            width: 100%;
+            border: none;
+            padding: 1rem; 
+            margin-bottom: 1rem; 
+        }
+       
+        textarea, input:not([type="submit"]){
+            border-bottom: .1rem solid black;
+            margin-bottom: 2rem;  
+        }
     
 
+        form article{
+            position: relative; 
+        }
 
+        label{
+            font-weight: 700; 
+            padding: 0;
+            transition: all .5s;  
+        }
+
+        label:not([for="userSubject"]){
+            position: absolute; 
+
+        }
+
+        .openedLabel{
+            bottom: 95%; 
+            font-size: 1.2rem;
+            color: grey; 
+        }
+
+        form b{
+            font-size: 1rem; 
+            text-transform: uppercase; 
+            color: red; 
+            -webkit-transition: opacity .5s;
+            transition: opacity .5s; 
+             
+        }
+
+       .hideError b{
+            opacity: 0; 
+        }
 
 /*
 Style Footer
