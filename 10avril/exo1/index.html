@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to our studio !</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>Start Bootstrap</li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <h1><span>Welcome To Our Studio!</span> It's nice to meet you</h1>
+
+            <button>Tell me more</button>
+
+        </header>
+
+        <main>
+
+            <section id="portfolio">
+
+            <h2>Portfolio</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                <figure>
+                <img src="img/projet1.png" alt="Projet 1">
+                <figcaption>Round icons<span>Graphic Design</span></figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/projet2.png" alt="Projet 2">
+                <figcaption>Startup Framework<span>Website Design</span></figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/projet3.png" alt="Projet 3">
+                <figcaption>Treehouse<span>Website Design</span></figcaption>
+            </figure>
+
+            </section>
+            
+            <section id="contacts">
+
+                <h2>Contact Us</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                <form action="sendMessage.php">
+
+                        <article>
+                            <input type="text" id="userName" placeholder="Your Name*">
+                        </article>
+
+                        <select id="userSubject">
+                                    <option value="null" selected>--Sélectionner--</option>
+                                    <option value="infos">Demande d'informations</option>
+                                    <option value="rdv">Rendez-vous</option>
+                                    <option value="devis">Devis</option>
+                        </select>
+
+                        <article>
+                            <input type="number" id="userPhone" placeholder="Your Phone*">
+                        </article>
+
+                        <article>
+                            <textarea name="userMessage"  id="userMessage" placeholder="Your Message*"></textarea>
+                        </article>
+
+                        <input type="submit" value="Send Message">
+
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer> 
+            <ul>
+                <li> Copyright &copy; Your Website 2017</li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>            
+            </ul>
+
+        </footer>
+        
+    </body>
+
+    <!-- Script jQuery -->
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+    <!-- Script de la page -->
+    <script src="js/script.js"></script>
+
+</html>

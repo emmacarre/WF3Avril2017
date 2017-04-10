@@ -1,0 +1,183 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
+@import url('https://fonts.googleapis.com/css?family=Courgette|Raleway:500,600');
+
+*{
+    padding: 0; 
+    margin: 0; 
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Raleway'; 
+    font-weight: 500;  
+    text-align: center; 
+}
+
+h1, h2{
+    text-transform: uppercase; 
+}
+
+h1 span{
+    font-style: italic; 
+    font-size: 1.3rem; 
+    display: block; 
+    padding: 1rem;
+    text-transform: initial;  
+}
+
+img{
+    max-width: 65%; 
+}
+
+a{
+    text-decoration: none;
+    color: white;  
+}
+
+p{
+    font-style: italic;
+    font-size: 1.2rem; 
+    color: grey;  
+}
+
+/* Style Header */
+
+header{
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover; 
+    color: white; 
+    padding: 2rem;  
+}
+
+nav li{
+    display: inline-block; 
+    text-align: right; 
+    padding: 0.5rem;
+    margin-bottom: 2rem; 
+}
+
+li:first-child{
+    color: #ffc000; 
+    font-family: 'Courgette';
+    float: left; 
+
+}
+
+button{
+    background: #ffc000;
+    padding: 1rem;
+    -webkit-border-radius: 10%;
+    border-radius: 3%;
+    border: none;     
+    width: 35%;
+    margin: 2rem;
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+/* Style Main */
+
+    h2, p{
+        margin: 2rem; 
+    }
+
+       
+   figure {
+            display: block;
+            width: 100%;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            margin-bottom: 2rem; 
+        }
+
+        figcaption {
+            bottom: 0;
+            width: 65%;
+            padding: 1rem;
+            margin: auto;
+            text-align: center;
+            color: black;
+            background: white;
+        }
+
+        figcaption span{
+            display: inherit; 
+            color: grey;
+            font-size: 1.3rem;
+            font-style: italic;
+             
+        }
+
+        #contacts{
+            background: black;
+            background-image: url(../img/map-image.png); 
+            background-size: cover; 
+            color: white; 
+            padding: 2rem; 
+            margin-bottom: 2rem; 
+
+        }
+
+        input, select, textarea {
+            width: 100%;
+            height: 5rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        input[type="submit"]{
+            background: #ffc000;
+            padding: 1rem;
+            -webkit-border-radius: 10%;
+            border-radius: 3%;
+            border: none;     
+            width: 35%;
+            margin: 2rem;
+            font-family: 'Raleway';
+            font-size: 1.3rem;
+            color: white;
+            text-transform: uppercase;
+
+        }
+
+/* Style Footer */
+
+        footer{
+
+            z-index: 1000;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 2rem;
+            margin: 2rem;
+            background: white;
+        }
+        
+
+        footer a {
+            color: black;
+        }
+
+
+        footer ul{
+            display: inline-grid; 
+            list-style: none; 
+        }
+
+        footer li:first-child {
+            color: black;
+            margin-bottom: 2rem; 
+            
+        }
